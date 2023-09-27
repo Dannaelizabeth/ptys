@@ -102,3 +102,45 @@
     cursor: pointer;
     border-radius: 5px;
 }
+
+@media screen and (max-width:480px) {
+    .container{
+        height: auto;
+        text-align: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .imgContainer{
+        width: 80vw;
+        height:80vw;
+    }
+
+    .title{
+        margin: -10px;
+    }
+
+    .sizes{
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .ingr{
+        flex-direction: column;
+    }
+
+    .option{
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .checkbox{
+        width: 25px;
+        height: 25px;
+    }
+
+    .quantity, .button{
+        height: 50px;
+        padding: 10px 20px;
+    }
+}

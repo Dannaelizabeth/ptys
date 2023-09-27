@@ -29,3 +29,9 @@
     position: relative;
     /* object-fit: contain; */
   }
+
+  @media screen and (max-width:480px) {
+    .container{
+      height: 50vh;
+    }
+  }
